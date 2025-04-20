@@ -1,5 +1,3 @@
----
-
 # Secreto
 
 **Secreto** is a minimal, single-file steganography tool written in pure C that hides and extracts **text files** inside **PNG images**.
@@ -46,7 +44,7 @@ Example
 ./Secreto hide hello.png test.txt secret.png
 ./Secreto extract secret.png out.txt
 
-
+```
 ---
 
 Limitations
@@ -56,8 +54,6 @@ Only works with PNG images
 Only hides and extracts text files
 
 No encryption — just basic embedding
-
-
 
 ---
 
